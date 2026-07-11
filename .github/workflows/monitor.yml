@@ -1,0 +1,28 @@
+name: Проверка сайта
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # каждые 30 минут
+  workflow_dispatch:          # ручной запуск кнопкой
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Установка зависимостей
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install chromium --with-deps
+
+      - name: Проверка сайта
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          ALERT_CHAT_ID: ${{ secrets.ALERT_CHAT_ID }}
+        run: node monitor.js

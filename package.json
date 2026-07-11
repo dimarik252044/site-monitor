@@ -1,0 +1,12 @@
+{
+  "name": "kontrakt-buro-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Мониторинг форм и кнопок сайта контракт-бюро.рф",
+  "scripts": {
+    "check": "node monitor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
