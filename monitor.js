@@ -211,6 +211,27 @@ async function sendAlert(text, screenshotPath) {
       }
     }
 
+    // ── 6.5 Серверный приёмник заявок (только новая версия) ──
+    // Не создаём заявку: GET к lead.php должен вернуть «method»,
+    // lead-export.php без токена — «forbidden». Это доказывает, что PHP жив.
+    if (isNew) {
+      try {
+        const base = new URL(SITE_URL).origin;
+        const [leadPhp, exportPhp] = await Promise.all([
+          fetch(base + '/lead.php').then(r => r.json()).catch(() => null),
+          fetch(base + '/lead-export.php').then(r => r.json()).catch(() => null)
+        ]);
+        if (leadPhp && leadPhp.error === 'method' && exportPhp && exportPhp.error === 'forbidden') {
+          ok('Серверный приёмник заявок (lead.php + выгрузка в CRM) жив');
+        } else {
+          fail('Серверный приёмник заявок не отвечает как положено',
+            'lead.php: ' + JSON.stringify(leadPhp).slice(0, 60) + ' | export: ' + JSON.stringify(exportPhp).slice(0, 60));
+        }
+      } catch (e) {
+        fail('Не удалось проверить lead.php', e.message.slice(0, 100));
+      }
+    }
+
     // ── 7. Квиз (только новая версия) ──
     if (isNew) {
       try {
