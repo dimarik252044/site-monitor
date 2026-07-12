@@ -105,6 +105,26 @@ async function sendAlert(text, screenshotPath) {
     ok('Страница открылась (HTTP 200)');
     await page.waitForTimeout(4000);
 
+    // ── 1.5 Срок SSL-сертификата ──
+    if (SITE_URL.startsWith('https://')) {
+      const tls = require('tls');
+      const host = new URL(SITE_URL).hostname;
+      await new Promise(resolve => {
+        const sock = tls.connect(443, host, { servername: host, timeout: 10000 }, () => {
+          const cert = sock.getPeerCertificate();
+          if (cert && cert.valid_to) {
+            const days = Math.floor((new Date(cert.valid_to) - Date.now()) / 86400000);
+            if (days < 0) fail('SSL-сертификат ИСТЁК — браузеры пугают посетителей');
+            else if (days <= 14) fail('SSL-сертификат истекает через ' + days + ' дн.', 'продлите на хостинге заранее');
+            else ok('SSL-сертификат в порядке (действует ещё ' + days + ' дн.)');
+          }
+          sock.end(); resolve();
+        });
+        sock.on('error', () => { warn('Не удалось проверить SSL-сертификат'); resolve(); });
+        sock.on('timeout', () => { sock.destroy(); resolve(); });
+      });
+    }
+
     // ── 2. Определяем версию сайта ──
     const isNew = await page.evaluate(() => !!document.getElementById('quiz-card'));
     console.log('  ℹ️  Версия сайта: ' + (isNew ? 'новая (светлая, с квизом)' : 'старая (тёмная, с видео)'));
