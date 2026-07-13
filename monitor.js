@@ -56,7 +56,26 @@ async function sendAlert(text, screenshotPath) {
   }
 }
 
-(async () => {
+// Упал ли предыдущий запуск в GitHub Actions (репозиторий публичный — токен не нужен).
+// Нужно, чтобы после алерта прислать «восстановился». Вне Actions всегда false.
+async function prevRunFailed() {
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!repo) return false;
+  try {
+    const r = await fetch(
+      `https://api.github.com/repos/${repo}/actions/workflows/monitor.yml/runs?status=completed&per_page=1`,
+      { headers: { 'User-Agent': 'site-monitor' } }
+    );
+    const d = await r.json();
+    return !!(d.workflow_runs && d.workflow_runs[0] && d.workflow_runs[0].conclusion === 'failure');
+  } catch (e) {
+    return false;
+  }
+}
+
+async function runChecks() {
+  errors.length = 0;
+  warnings.length = 0;
   console.log('Проверка ' + SITE_URL + ' — ' + new Date().toISOString());
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1366, height: 900 } });
@@ -278,20 +297,44 @@ async function sendAlert(text, screenshotPath) {
     if (e.message !== 'abort') fail('Неожиданный сбой проверки', e.message.slice(0, 200));
   }
 
-  // ── Итог ──
+  // ── Итог прохода ──
   if (errors.length) {
     try { await page.screenshot({ path: SCREENSHOT, fullPage: false }); } catch (e) {}
-    const msg = '🔴 <b>Сайт контракт-бюро.рф: проблема!</b>\n\n' +
-      errors.map(e => '❌ ' + e).join('\n') +
-      (warnings.length ? '\n\n' + warnings.map(w => '⚠️ ' + w).join('\n') : '') +
-      '\n\n🕐 ' + new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК';
-    await sendAlert(msg, SCREENSHOT);
-    console.log('\nИТОГ: ПРОБЛЕМЫ НАЙДЕНЫ (' + errors.length + ')');
-    await browser.close();
-    process.exit(1);
-  } else {
-    console.log('\nИТОГ: всё работает' + (warnings.length ? ' (предупреждений: ' + warnings.length + ')' : ''));
-    await browser.close();
-    process.exit(0);
   }
+  await browser.close();
+  return { errors: [...errors], warnings: [...warnings] };
+}
+
+(async () => {
+  // Защита от ложных тревог: одиночный сбой (секундный лаг хостинга) не считается.
+  // Алерт уходит только если проблема подтвердилась двумя проходами с паузой в минуту.
+  const first = await runChecks();
+  let result = first;
+  if (first.errors.length) {
+    console.log('\nНайдены проблемы — перепроверка через 60 секунд…');
+    await new Promise(r => setTimeout(r, 60_000));
+    result = await runChecks();
+  }
+
+  if (result.errors.length) {
+    const msg = '🔴 <b>Сайт контракт-бюро.рф: проблема!</b>\n\n' +
+      result.errors.map(e => '❌ ' + e).join('\n') +
+      (result.warnings.length ? '\n\n' + result.warnings.map(w => '⚠️ ' + w).join('\n') : '') +
+      '\n\n⏱ Подтверждено двумя проверками с интервалом в минуту' +
+      '\n🕐 ' + new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК';
+    await sendAlert(msg, SCREENSHOT);
+    console.log('\nИТОГ: ПРОБЛЕМЫ ПОДТВЕРЖДЕНЫ (' + result.errors.length + ')');
+    process.exit(1);
+  }
+
+  if (first.errors.length) {
+    console.log('\nИТОГ: сбой был кратковременным, вторая проверка прошла — алерт не отправлен');
+  }
+  // Прошлый запуск закончился алертом, а сейчас всё хорошо — сообщаем, что беспокоиться не о чем
+  if (await prevRunFailed()) {
+    await sendAlert('✅ <b>Сайт контракт-бюро.рф: восстановился</b>\n\nВсе проверки снова проходят, ничего делать не нужно.' +
+      '\n\n🕐 ' + new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК');
+  }
+  console.log('\nИТОГ: всё работает' + (result.warnings.length ? ' (предупреждений: ' + result.warnings.length + ')' : ''));
+  process.exit(0);
 })();
