@@ -117,7 +117,12 @@ async function runChecks() {
   const consoleErrors = [];
   const failedRequests = [];
   page.on('pageerror', e => consoleErrors.push(String(e.message).slice(0, 200)));
-  page.on('console', m => { if (m.type() === 'error') consoleErrors.push(m.text().slice(0, 200)); });
+  page.on('console', m => {
+    if (m.type() !== 'error') return;
+    const src = (m.location() && m.location().url) || '';
+    if (src.includes('mc.yandex')) return; // заблокированная нами Метрика — не ошибка сайта
+    consoleErrors.push(m.text().slice(0, 200));
+  });
   page.on('requestfailed', r => {
     if (r.url().includes('mc.yandex')) return; // Метрику блокируем сами — это не сбой
     const type = r.resourceType();
