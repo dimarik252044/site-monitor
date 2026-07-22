@@ -73,6 +73,35 @@ async function prevRunFailed() {
   }
 }
 
+// Хостинг (анти-DDoS рег.ру) периодически блокирует зарубежные IP GitHub-раннеров,
+// отдавая им 403, хотя для посетителей из России сайт работает. Прежде чем бить
+// тревогу «сайт лежит», спрашиваем бесплатный проверщик check-host.net с московским узлом.
+async function rfHttpStatus(url) {
+  try {
+    const start = await fetch(
+      'https://check-host.net/check-http?host=' + encodeURIComponent(url) + '&max_nodes=1&node=ru1.node.check-host.net',
+      { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(15000) }
+    ).then(r => r.json());
+    if (!start || !start.request_id) return null;
+    for (let i = 0; i < 5; i++) {
+      await new Promise(r => setTimeout(r, 4000));
+      const res = await fetch('https://check-host.net/check-result/' + start.request_id,
+        { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(15000) }).then(r => r.json());
+      const node = res && res['ru1.node.check-host.net'];
+      if (node && node[0]) return String(node[0][3]);
+    }
+  } catch (e) {}
+  return null; // проверить из России не удалось
+}
+
+async function siteOkFromRussia() {
+  // главная должна отдавать 200, а lead.php на GET — строго 405 (значит, PHP жив)
+  const main = await rfHttpStatus(SITE_URL);
+  if (main !== '200') return false;
+  const lead = await rfHttpStatus(new URL('/lead.php', SITE_URL).href);
+  return lead === '405';
+}
+
 async function runChecks() {
   errors.length = 0;
   warnings.length = 0;
@@ -317,6 +346,18 @@ async function runChecks() {
   }
 
   if (result.errors.length) {
+    // Сайт не открылся проверщику? Возможно, хостинг забанил только его зарубежный IP.
+    const loadFailOnly = result.errors.every(e =>
+      e.startsWith('Сайт вернул код') || e.startsWith('Сайт не открылся') ||
+      e.startsWith('Серверный приёмник заявок') || e.startsWith('Не удалось проверить lead.php'));
+    if (loadFailOnly && await siteOkFromRussia()) {
+      console.log('\nИТОГ: хостинг блокирует зарубежный сервер проверки, но из России сайт открывается (HTTP 200) — для клиентов всё работает, тревогу не поднимаем');
+      if (await prevRunFailed()) {
+        await sendAlert('🟡 <b>Сайт контракт-бюро.рф: отбой тревоги</b>\n\nРазобрались: хостинг блокирует зарубежный сервер проверки (отсюда были красные алерты), но из России сайт открывается — <b>для клиентов всё работает</b>. Если такое будет часто, стоит показать эти алерты поддержке рег.ру.' +
+          '\n\n🕐 ' + new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК');
+      }
+      process.exit(0);
+    }
     const msg = '🔴 <b>Сайт контракт-бюро.рф: проблема!</b>\n\n' +
       result.errors.map(e => '❌ ' + e).join('\n') +
       (result.warnings.length ? '\n\n' + result.warnings.map(w => '⚠️ ' + w).join('\n') : '') +
