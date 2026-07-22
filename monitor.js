@@ -119,11 +119,15 @@ async function runChecks() {
   page.on('pageerror', e => consoleErrors.push(String(e.message).slice(0, 200)));
   page.on('console', m => { if (m.type() === 'error') consoleErrors.push(m.text().slice(0, 200)); });
   page.on('requestfailed', r => {
+    if (r.url().includes('mc.yandex')) return; // Метрику блокируем сами — это не сбой
     const type = r.resourceType();
     if (type === 'script' || type === 'stylesheet') {
       failedRequests.push(r.url().slice(0, 120) + ' (' + (r.failure() || {}).errorText + ')');
     }
   });
+
+  // Не светимся в Яндекс.Метрике: визиты бота не должны портить статистику сайта
+  await page.route(/mc\.yandex/, route => route.abort());
 
   // Перехват заявок: и серверный приёмник lead.php, и прямую отправку в Telegram.
   // Тестовая заявка не доходит ни до менеджеров, ни до CRM.
