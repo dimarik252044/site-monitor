@@ -95,11 +95,13 @@ async function rfHttpStatus(url) {
 }
 
 async function siteOkFromRussia() {
-  // главная должна отдавать 200, а lead.php на GET — строго 405 (значит, PHP жив)
+  // 'ok' — из России всё живо; 'fail' — Россия тоже не видит сайт; 'unknown' — сверка недоступна
   const main = await rfHttpStatus(SITE_URL);
-  if (main !== '200') return false;
+  if (main === null) return 'unknown';
+  if (main !== '200') return 'fail';
   const lead = await rfHttpStatus(new URL('/lead.php', SITE_URL).href);
-  return lead === '405';
+  if (lead === null) return 'unknown';
+  return lead === '405' ? 'ok' : 'fail';
 }
 
 async function runChecks() {
@@ -359,7 +361,8 @@ async function runChecks() {
     const loadFailOnly = result.errors.every(e =>
       e.startsWith('Сайт вернул код') || e.startsWith('Сайт не открылся') ||
       e.startsWith('Серверный приёмник заявок') || e.startsWith('Не удалось проверить lead.php'));
-    if (loadFailOnly && await siteOkFromRussia()) {
+    const rfVerdict = loadFailOnly ? await siteOkFromRussia() : 'fail';
+    if (loadFailOnly && rfVerdict === 'ok') {
       console.log('\nИТОГ: хостинг блокирует зарубежный сервер проверки, но из России сайт открывается (HTTP 200) — для клиентов всё работает, тревогу не поднимаем');
       if (await prevRunFailed()) {
         await sendAlert('🟡 <b>Сайт контракт-бюро.рф: отбой тревоги</b>\n\nРазобрались: хостинг блокирует зарубежный сервер проверки (отсюда были красные алерты), но из России сайт открывается — <b>для клиентов всё работает</b>. Если такое будет часто, стоит показать эти алерты поддержке рег.ру.' +
@@ -370,6 +373,8 @@ async function runChecks() {
     const msg = '🔴 <b>Сайт контракт-бюро.рф: проблема!</b>\n\n' +
       result.errors.map(e => '❌ ' + e).join('\n') +
       (result.warnings.length ? '\n\n' + result.warnings.map(w => '⚠️ ' + w).join('\n') : '') +
+      (rfVerdict === 'fail' ? '\n\n🇷🇺 Из России сайт тоже недоступен — сбой настоящий' :
+       rfVerdict === 'unknown' ? '\n\n🇷🇺 Сверить из России не удалось — возможно, проблема только у проверщика' : '') +
       '\n\n⏱ Подтверждено двумя проверками с интервалом в минуту' +
       '\n🕐 ' + new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК';
     await sendAlert(msg, SCREENSHOT);
