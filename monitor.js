@@ -1,7 +1,7 @@
 /*
  * Мониторинг сайта контракт-бюро.рф
- * Сам определяет версию сайта (старая тёмная / новая светлая) и проходит
- * путь посетителя: загрузка, кнопки, заполнение и отправка формы, квиз.
+ * Сам определяет версию сайта (старая тёмная / светлая с квизом / лендинг авг-2026)
+ * и проходит путь посетителя: загрузка, кнопки, заполнение и отправка формы, квиз.
  * При ошибке шлёт алерт в Telegram.
  *
  * Реальные заявки НЕ отправляются: запросы к lead.php и api.telegram.org
@@ -185,18 +185,28 @@ async function runChecks() {
     }
 
     // ── 2. Определяем версию сайта ──
-    const isNew = await page.evaluate(() => !!document.getElementById('quiz-card'));
-    console.log('  ℹ️  Версия сайта: ' + (isNew ? 'новая (светлая, с квизом)' : 'старая (тёмная, с видео)'));
+    // 'gpt'  — лендинг августа-2026 (кнопки .js-lead, модалка с атрибутом hidden)
+    // 'new'  — светлая версия с квизом (#quiz-card)
+    // 'old'  — тёмная версия с видео и CDN-библиотеками
+    const version = await page.evaluate(() => {
+      if (document.querySelector('.js-lead')) return 'gpt';
+      if (document.getElementById('quiz-card')) return 'new';
+      return 'old';
+    });
+    const isGpt = version === 'gpt';
+    const isNew = version === 'new';
+    console.log('  ℹ️  Версия сайта: ' + (isGpt ? 'лендинг (авг-2026, .js-lead)' : isNew ? 'светлая с квизом' : 'старая тёмная с видео'));
 
     // ── 3. Основной скрипт и библиотеки ──
     const env = await page.evaluate(() => ({
-      openLeadForm: typeof openLeadForm === 'function',
+      script: typeof openLeadForm === 'function' ||
+              (typeof sendLead === 'function' && typeof formatPhone === 'function'),
       gsap: typeof gsap !== 'undefined',
       typed: typeof Typed !== 'undefined'
     }));
-    if (!env.openLeadForm) fail('Основной скрипт сайта не выполнился (openLeadForm не определён)');
+    if (!env.script) fail('Основной скрипт сайта не выполнился (обработчик формы не определён)');
     else ok('Основной скрипт сайта работает');
-    if (!isNew) {
+    if (!isNew && !isGpt) {
       // старая версия зависит от CDN-библиотек
       if (!env.gsap) warn('Библиотека gsap не загрузилась с CDN');
       if (!env.typed) warn('Библиотека Typed не загрузилась с CDN');
@@ -231,53 +241,66 @@ async function runChecks() {
     else ok('Кнопки первого экрана кликабельны');
 
     // ── 5. Открытие формы консультации ──
-    const ctaSelector = isNew ? '.hero-actions .btn' : '.btn-hero-main';
-    const heroBtn = page.locator(ctaSelector).first();
+    // У каждой версии свои кнопка, поля и признак «модалка открыта/успех показан»
+    const ui = isGpt ? {
+      cta: '.js-lead',
+      name: '#lead-name', phone: '#lead-phone',
+      consent: '#lead-form .consent-row input[type=checkbox]',
+      submit: '#lead-form button[type=submit]',
+      modalOpen: () => { const m = document.getElementById('lead-modal'); return !!m && !m.hidden; },
+      successOpen: () => { const s = document.getElementById('lead-success'); return !!s && !s.hidden; }
+    } : {
+      cta: isNew ? '.hero-actions .btn' : '.btn-hero-main',
+      name: '#lf-name', phone: '#lf-phone',
+      consent: '#lead-form .card-consent input[type=checkbox]',
+      submit: '#lead-form .card-submit',
+      modalOpen: () => {
+        const m = document.getElementById('lead-modal');
+        return !!m && getComputedStyle(m).display !== 'none' && parseFloat(getComputedStyle(m).opacity) > 0.5;
+      },
+      successOpen: () => { const s = document.getElementById('success-modal'); return !!s && s.style.display === 'flex'; }
+    };
+    const heroBtn = page.locator(ui.cta).first();
     if (await heroBtn.count() === 0) {
       fail('Кнопка «Получить консультацию» не найдена на странице');
     } else {
       await heroBtn.click({ timeout: 5000 });
       await page.waitForTimeout(700);
-      const modalVisible = await page.evaluate(() => {
-        const m = document.getElementById('lead-modal');
-        return m && getComputedStyle(m).display !== 'none' && parseFloat(getComputedStyle(m).opacity) > 0.5;
-      });
+      const modalVisible = await page.evaluate(ui.modalOpen);
       if (!modalVisible) {
         fail('Форма консультации не открылась по клику');
       } else {
         ok('Форма консультации открывается');
 
         // ── 6. Заполнение и отправка ──
-        await page.fill('#lf-name', 'ТЕСТ Мониторинг');
-        await page.fill('#lf-phone', '9990000000'); // маска сайта сама добавит +7
-        const phoneVal = await page.inputValue('#lf-phone');
+        await page.fill(ui.name, 'ТЕСТ Мониторинг');
+        await page.fill(ui.phone, '9990000000'); // маска сайта сама добавит +7
+        const phoneVal = await page.inputValue(ui.phone);
         if (!phoneVal || phoneVal.replace(/\D/g, '').length < 11) {
           fail('Маска телефона работает неверно', 'в поле осталось: «' + phoneVal + '»');
         } else {
           ok('Поля заполняются, маска телефона работает');
         }
 
-        const consent = page.locator('#lead-form .card-consent input[type=checkbox]');
+        const consent = page.locator(ui.consent);
         if (await consent.count()) await consent.check();
 
-        await page.click('#lead-form .card-submit');
+        await page.click(ui.submit);
         await page.waitForTimeout(3000);
 
         if (!capturedLeads.length) {
-          fail('Заявка НЕ отправилась (запрос не ушёл ни в lead.php, ни в Telegram)');
+          fail('Заявка НЕ отправилась (запрос не ушёл ни в lead.php, ни в Telegram)',
+            'посетители заполняют форму, а менеджеры и CRM ничего не получают');
         } else {
           const sent = JSON.stringify(capturedLeads);
           if (sent.includes('ТЕСТ Мониторинг') && sent.replace(/\D/g, '').includes('9990000000')) {
-            ok('Заявка отправляется, данные корректны (' + (isNew ? 'через lead.php → CRM' : 'напрямую в Telegram') + ')');
+            ok('Заявка отправляется, данные корректны (' + (isGpt || isNew ? 'через lead.php → CRM' : 'напрямую в Telegram') + ')');
           } else {
             fail('Заявка ушла, но данные в ней битые', sent.slice(0, 200));
           }
         }
 
-        const successShown = await page.evaluate(() => {
-          const m = document.getElementById('success-modal');
-          return m && m.style.display === 'flex';
-        });
+        const successShown = await page.evaluate(ui.successOpen);
         if (!successShown) warn('Окно «Заявка принята» не показалось после отправки');
         else ok('Посетитель видит подтверждение «Заявка принята»');
 
@@ -285,15 +308,19 @@ async function runChecks() {
           const s = document.getElementById('success-modal');
           if (s) s.style.display = 'none';
           if (typeof closeLeadForm === 'function') closeLeadForm();
+          // gpt-версия: закрываем модалку её крестиком
+          const x = document.getElementById('modal-close');
+          if (x) x.click();
         });
         await page.waitForTimeout(500);
       }
     }
 
-    // ── 6.5 Серверный приёмник заявок (только новая версия) ──
+    // ── 6.5 Серверный приёмник заявок (версии, где заявки идут через lead.php) ──
     // Не создаём заявку: GET к lead.php должен вернуть «method»,
     // lead-export.php без токена — «forbidden». Это доказывает, что PHP жив.
-    if (isNew) {
+    // На localhost-превью PHP не исполняется — проверяем только боевой https-сайт.
+    if ((isNew || isGpt) && SITE_URL.startsWith('https://')) {
       try {
         const base = new URL(SITE_URL).origin;
         const [leadPhp, exportPhp] = await Promise.all([
