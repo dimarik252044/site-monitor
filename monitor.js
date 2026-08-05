@@ -189,24 +189,27 @@ async function runChecks() {
     // 'new'  — светлая версия с квизом (#quiz-card)
     // 'old'  — тёмная версия с видео и CDN-библиотеками
     const version = await page.evaluate(() => {
+      if (document.getElementById('consent-modal') && document.getElementById('yandex-form-modal')) return 'yx';
       if (document.querySelector('.js-lead')) return 'gpt';
       if (document.getElementById('quiz-card')) return 'new';
       return 'old';
     });
+    const isYx = version === 'yx';
     const isGpt = version === 'gpt';
     const isNew = version === 'new';
-    console.log('  ℹ️  Версия сайта: ' + (isGpt ? 'лендинг (авг-2026, .js-lead)' : isNew ? 'светлая с квизом' : 'старая тёмная с видео'));
+    console.log('  ℹ️  Версия сайта: ' + (isYx ? 'лендинг с согласием и Яндекс.Формой (авг-2026)' : isGpt ? 'лендинг (авг-2026, .js-lead)' : isNew ? 'светлая с квизом' : 'старая тёмная с видео'));
 
     // ── 3. Основной скрипт и библиотеки ──
     const env = await page.evaluate(() => ({
-      script: typeof openLeadForm === 'function' ||
+      script: typeof requestConsent === 'function' ||
+              typeof openLeadForm === 'function' ||
               (typeof sendLead === 'function' && typeof formatPhone === 'function'),
       gsap: typeof gsap !== 'undefined',
       typed: typeof Typed !== 'undefined'
     }));
     if (!env.script) fail('Основной скрипт сайта не выполнился (обработчик формы не определён)');
     else ok('Основной скрипт сайта работает');
-    if (!isNew && !isGpt) {
+    if (!isNew && !isGpt && !isYx) {
       // старая версия зависит от CDN-библиотек
       if (!env.gsap) warn('Библиотека gsap не загрузилась с CDN');
       if (!env.typed) warn('Библиотека Typed не загрузилась с CDN');
@@ -241,6 +244,51 @@ async function runChecks() {
     else ok('Кнопки первого экрана кликабельны');
 
     // ── 5. Открытие формы консультации ──
+    // Версия 'yx': кнопки .js-lead открывают модалку согласия (2 галочки),
+    // после «Согласен — продолжить» открывается Яндекс.Форма в iframe.
+    // Заявку не отправляем — проверяем всю цепочку до загрузки формы.
+    if (isYx) {
+      const heroBtn = page.locator('.js-lead').first();
+      if (await heroBtn.count() === 0) {
+        fail('Кнопка «Получить консультацию» не найдена на странице');
+      } else {
+        await heroBtn.click({ timeout: 5000 });
+        await page.waitForTimeout(700);
+        const consentOpen = await page.evaluate(() => {
+          const m = document.getElementById('consent-modal');
+          return !!m && !m.hidden;
+        });
+        if (!consentOpen) {
+          fail('Форма консультации не открылась по клику', 'модалка согласия не появилась');
+        } else {
+          ok('Модалка согласия открывается по кнопке');
+          await page.check('#consent-privacy');
+          await page.check('#consent-nda');
+          await page.waitForTimeout(300);
+          const btnReady = await page.evaluate(() =>
+            document.getElementById('consent-continue').getAttribute('aria-disabled') === 'false');
+          if (!btnReady) {
+            fail('Кнопка «Согласен — продолжить» не активируется после двух галочек');
+          } else {
+            await page.click('#consent-continue');
+            await page.waitForTimeout(2500);
+            const yx = await page.evaluate(() => {
+              const m = document.getElementById('yandex-form-modal');
+              const f = document.getElementById('yandex-form-frame');
+              return { open: !!m && !m.hidden, src: f ? (f.getAttribute('src') || '') : '' };
+            });
+            if (!yx.open || !yx.src.includes('forms.yandex.ru')) {
+              fail('Яндекс.Форма не открылась после согласия', 'src: «' + yx.src.slice(0, 80) + '»');
+            } else {
+              const frameLoaded = failedRequests.every(r => !r.includes('forms.yandex.ru'));
+              if (!frameLoaded) fail('Яндекс.Форма не загрузилась (запрос к forms.yandex.ru упал)');
+              else ok('Заявка работает: согласие → Яндекс.Форма загружается');
+              await page.evaluate(() => document.getElementById('yandex-form-close').click());
+            }
+          }
+        }
+      }
+    } else {
     // У каждой версии свои кнопка, поля и признак «модалка открыта/успех показан»
     const ui = isGpt ? {
       cta: '.js-lead',
@@ -315,12 +363,13 @@ async function runChecks() {
         await page.waitForTimeout(500);
       }
     }
+    }
 
     // ── 6.5 Серверный приёмник заявок (версии, где заявки идут через lead.php) ──
     // Не создаём заявку: GET к lead.php должен вернуть «method»,
     // lead-export.php без токена — «forbidden». Это доказывает, что PHP жив.
     // На localhost-превью PHP не исполняется — проверяем только боевой https-сайт.
-    if ((isNew || isGpt) && SITE_URL.startsWith('https://')) {
+    if ((isNew || isGpt || isYx) && SITE_URL.startsWith('https://')) {
       try {
         const base = new URL(SITE_URL).origin;
         const [leadPhp, exportPhp] = await Promise.all([
