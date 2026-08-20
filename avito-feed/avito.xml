@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Ads formatVersion="3" target="Avito.ru">
   <Ad>
-    <Id>kb-01-tenders--orenburg</Id>
-    <AvitoId>8303609012</AvitoId>
-    <Title>Тендерное сопровождение бизнеса под ключ</Title>
-    <Description><![CDATA[Первично разберём закупку бесплатно. Пришлите ссылку в чат Avito — проверим требования, сроки и основные риски.
+    <Id>kb-orenburg-tenders-v2</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <Address>Оренбург, Оренбургская область</Address>
+    <Title>Тендерное сопровождение 44-ФЗ и 223-ФЗ в Оренбурге</Title>
+    <Description><![CDATA[Тендерное сопровождение 44-ФЗ и 223-ФЗ для бизнеса в Оренбурге. Пришлите ссылку в чат Avito — первично проверим требования, сроки и основные риски бесплатно.
 
-«Контракт Бюро» дистанционно сопровождает компании по всей России в закупках по 44-ФЗ, 223-ФЗ и коммерческим процедурам.
+«Контракт Бюро» дистанционно сопровождает компании в государственных и коммерческих закупках.
 
 Что можем взять на себя:
 — проверку документации, экономики и проекта контракта;
@@ -14,29 +23,32 @@
 — сопровождение банковской гарантии и подписания;
 — контроль исполнения, приёмки и оплаты.
 
-Одна заявка — 3 000 ₽. Пакет «Старт» — 15 000 ₽. Пакет «Бизнес» — 50 000 ₽/мес плюс комиссия до 1%. Объём фиксируем до начала работы.
+Тендер под ключ — 3 000 ₽. Объём и условия фиксируем в договоре до начала сопровождения.
 
 Победу не обещаем. Честно скажем, если участие невыгодно или рискованно.]]></Description>
     <Price>3000</Price>
-    <Address>Оренбург</Address>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Юридические услуги</ServiceSubtype>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Дмитрий</ManagerName>
-    <ContactPhone>+7 (922) 829-96-06</ContactPhone>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-01-tenders/01-tenders__01-cover.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-01-tenders/01-tenders__02.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-01-tenders/01-tenders__03.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-01-tenders/01-tenders__04.png"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-04.jpg"/>
     </Images>
   </Ad>
-  <Ad>
-    <Id>kb-02-guarantee--orenburg</Id>
 
-    <Title>Банковская гарантия для тендера — оформление</Title>
-    <Description><![CDATA[Поможем оформить банковскую гарантию для заявки, исполнения контракта, возврата аванса или гарантийных обязательств.
+  <Ad>
+    <Id>kb-orenburg-guarantee-v2</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нет</Prepayment>
+    <Address>Оренбург, Оренбургская область</Address>
+    <Title>Банковская гарантия для тендера в Оренбурге</Title>
+    <Description><![CDATA[Поможем компании или ИП в Оренбурге оформить банковскую гарантию для заявки, исполнения контракта, возврата аванса или гарантийных обязательств.
 
 Как работаем:
 — проверяем закупку, сумму и срок гарантии;
@@ -44,29 +56,35 @@
 — сравниваем полученные предложения;
 — сопровождаем документы до решения и выпуска.
 
-Подбор и наше сопровождение — бесплатно. Клиент оплачивает комиссию напрямую выбранному банку. Гарантию выдаёт банк; он же принимает решение, определяет срок и окончательную стоимость. Одобрение заранее не гарантируется.
+Подбор и наше сопровождение — бесплатно. Клиент оплачивает комиссию напрямую выбранному банку.
 
-Для расчёта пришлите ИНН, ссылку на закупку, сумму гарантии и нужную дату.]]></Description>
-    <Price>10</Price>
-    <Address>Оренбург</Address>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Юридические услуги</ServiceSubtype>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Дмитрий</ManagerName>
-    <ContactPhone>+7 (922) 829-96-06</ContactPhone>
+Гарантию выдаёт банк; он же принимает решение и определяет окончательную стоимость. Одобрение заранее не гарантируется.
+
+Для расчёта пришлите в чат Avito ИНН, ссылку на закупку, сумму и нужную дату.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-02-guarantee/02-guarantee__01-cover.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-02-guarantee/02-guarantee__02.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-02-guarantee/02-guarantee__03.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-02-guarantee/02-guarantee__04.png"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-04.jpg"/>
     </Images>
   </Ad>
-  <Ad>
-    <Id>kb-03-websites--orenburg</Id>
 
-    <Title>Создание сайта для бизнеса под ключ</Title>
-    <Description><![CDATA[Создадим понятный сайт, который представляет бизнес и собирает обращения: от структуры и прототипа до адаптивной готовой версии.
+  <Ad>
+    <Id>kb-orenburg-websites-v2</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>IT, дизайн, тексты</ServiceSubtype>
+    <ServiceSubspecies>Создание сайтов и приложений</ServiceSubspecies>
+    <Specialty>Разработка и сопровождение сайтов под ключ</Specialty>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <Address>Оренбург, Оренбургская область</Address>
+    <Title>Создание сайта для бизнеса в Оренбурге</Title>
+    <Description><![CDATA[Создадим сайт для бизнеса в Оренбурге: от структуры и прототипа до адаптивной готовой версии.
 
 Возможные форматы:
 — лендинг для одной услуги;
@@ -74,29 +92,36 @@
 — каталог или интернет-магазин;
 — обновление существующего сайта.
 
-До начала работ согласуем задачи, страницы, функции, сроки и стоимость. В базовый процесс входят прототипирование, дизайн, адаптация под телефоны, формы связи и базовая аналитика.
+До начала работ согласуем задачи, страницы, функции, сроки и стоимость. В базовый процесс входят прототип, дизайн, адаптация под телефоны, формы связи и базовая аналитика.
 
-Напишите, чем занимается бизнес, какой сайт нужен и какие примеры вам нравятся. Бесплатно предложим подходящий формат и предварительную оценку.]]></Description>
+Стоимость — от 5 000 ₽. Работаем по договору.
+
+Напишите в чат Avito, чем занимается бизнес и какой сайт нужен. Бесплатно предложим формат и предварительную оценку.]]></Description>
     <Price>5000</Price>
-    <Address>Оренбург</Address>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-orenburg-apps-v2</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
     <ServiceType>Деловые услуги</ServiceType>
     <ServiceSubtype>IT, дизайн, тексты</ServiceSubtype>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Дмитрий</ManagerName>
-    <ContactPhone>+7 (922) 829-96-06</ContactPhone>
-    <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-03-websites/03-websites__01-cover.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-03-websites/03-websites__02.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-03-websites/03-websites__03.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-03-websites/03-websites__04.png"/>
-    </Images>
-  </Ad>
-  <Ad>
-    <Id>kb-04-apps--orenburg</Id>
-
-    <Title>Разработка мобильного приложения и MVP</Title>
-    <Description><![CDATA[Разработаем рабочий MVP мобильного или веб-приложения: разберём идею, спроектируем пользовательские сценарии, подготовим интерфейс и соберём первую версию продукта.
+    <ServiceSubspecies>Создание сайтов и приложений</ServiceSubspecies>
+    <Specialty>Разработка приложений</Specialty>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <Address>Оренбург, Оренбургская область</Address>
+    <Title>Разработка приложения и MVP в Оренбурге</Title>
+    <Description><![CDATA[Разработаем для бизнеса в Оренбурге мобильное или веб-приложение: разберём идею, спроектируем сценарии и соберём первую рабочую версию.
 
 Что можно создать:
 — мобильное приложение;
@@ -104,22 +129,16 @@
 — личный кабинет;
 — внутренний сервис для сотрудников или клиентов.
 
-Проект делим на понятные этапы: аналитика, прототип, дизайн, разработка, тестирование и запуск. До начала фиксируем состав MVP, сроки и смету.
+Проект делим на этапы: аналитика, прототип, дизайн, разработка, тестирование и запуск. До начала фиксируем состав MVP, сроки и смету.
 
-Для предварительной оценки опишите пользователей, основную задачу и обязательные функции. Первая консультация и оценка — бесплатно.]]></Description>
-    <Price>5000</Price>
-    <Address>Оренбург</Address>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>IT, дизайн, тексты</ServiceSubtype>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Дмитрий</ManagerName>
-    <ContactPhone>+7 (922) 829-96-06</ContactPhone>
+Стоимость договорная. Работаем по договору.
+
+Для предварительной оценки опишите в чате Avito пользователей, основную задачу и обязательные функции. Первая консультация бесплатна.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-04-apps/04-apps__01-cover.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-04-apps/04-apps__02.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-04-apps/04-apps__03.png"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/kb-04-apps/04-apps__04.png"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-04.jpg"/>
     </Images>
   </Ad>
 </Ads>
