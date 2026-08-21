@@ -7,40 +7,41 @@
     <Category>Предложение услуг</Category>
     <ServiceType>Деловые услуги</ServiceType>
     <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
     <Place>Удалённо</Place>
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Оренбург, Оренбургская область</Address>
-    <Title>Тендерное сопровождение 44-ФЗ и 223-ФЗ в Оренбурге</Title>
-    <Description><![CDATA[Хотите участвовать в тендерах, но не тратить время на сложную документацию и контроль десятков сроков?
+    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
 
-«Контракт Бюро» сопровождает компании и ИП в Оренбурге по 44-ФЗ, 223-ФЗ и коммерческим закупкам. Помогаем выстроить понятный процесс: от выбора закупки до подписания и исполнения контракта.
+«Контракт Бюро» сопровождает компании и ИП в Оренбурге по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
 
-🔎 С чего начинаем
-Пришлите ссылку на закупку в чат Avito. Бесплатно посмотрим требования, сроки и ключевые риски. Если участие невыгодно или условия опасны для исполнителя — скажем об этом до подачи заявки.
+🔎 До подачи заявки проверим:
+✔ требования к участнику и документам;
+✔ экономику закупки и сроки оплаты;
+✔ обеспечение, штрафы и проект контракта;
+✔ риски отклонения и исполнения.
 
-💼 Что можем взять на себя:
-✔ анализ документации, экономики и проекта контракта;
-✔ подготовку заявки и проверку комплекта документов;
-✔ контроль сроков и подачу на электронной площадке;
-✔ сопровождение банковской гарантии и подписания контракта;
-✔ помощь на этапе исполнения, приёмки и оплаты.
+💼 Если решите участвовать, возьмём процесс под ключ:
+— подготовим и проверим заявку;
+— проконтролируем срок подачи;
+— поможем с банковской гарантией;
+— сопроводим подписание и исполнение контракта.
 
-📋 Формат работы:
-• тендер под ключ — 3 000 ₽;
-• сопровождение отдельного этапа;
-• внешний тендерный специалист для вашего бизнеса.
+Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
 
-Работаем дистанционно и по договору. Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку, снизить риски отклонения и держать весь процесс под контролем.
+Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
 
-Напишите в чат Avito и отправьте ссылку на закупку — начнём с бесплатной первичной оценки.]]></Description>
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
     <Price>3000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-tenders-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-04.jpg"/>
     </Images>
   </Ad>
 
@@ -49,32 +50,42 @@
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <ServiceType>Услуги посредников</ServiceType>
+    <ServiceSubtype>Помощь с финансовыми вопросами</ServiceSubtype>
     <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нет</Prepayment>
+    <WorkWithLegalEntities>Да</WorkWithLegalEntities>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Оренбург, Оренбургская область</Address>
-    <Title>Банковская гарантия для тендера в Оренбурге</Title>
-    <Description><![CDATA[Поможем компании или ИП в Оренбурге оформить банковскую гарантию для заявки, исполнения контракта, возврата аванса или гарантийных обязательств.
+    <Title>Банковская гарантия по 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нужна банковская гарантия для тендера или контракта? Поможем пройти путь от первичной проверки до выпуска без десятка отдельных заявок.
 
-Как работаем:
-— проверяем закупку, сумму и срок гарантии;
-— собираем одну заявку и направляем банкам-партнёрам;
-— сравниваем полученные предложения;
-— сопровождаем документы до решения и выпуска.
+Работаем с компаниями и ИП в Оренбурге. Подбираем гарантии для участия, исполнения контракта, возврата аванса и гарантийных обязательств.
 
-Подбор и наше сопровождение — бесплатно. Клиент оплачивает комиссию напрямую выбранному банку.
+💼 Как проходит работа:
+✔ проверяем закупку, сумму и нужный срок;
+✔ помогаем собрать комплект документов;
+✔ направляем заявку в банки-партнёры;
+✔ сравниваем полученные условия;
+✔ сопровождаем документы до решения и выпуска.
 
-Гарантию выдаёт банк; он же принимает решение и определяет окончательную стоимость. Одобрение заранее не гарантируется.
+Подбор и наше сопровождение — 0 ₽. Клиент оплачивает комиссию напрямую выбранному банку.
 
-Для расчёта пришлите в чат Avito ИНН, ссылку на закупку, сумму и нужную дату.]]></Description>
+Важно: гарантию выдаёт банк. Он принимает решение, определяет стоимость и может запросить дополнительные документы. Одобрение заранее не гарантируется.
+
+Для расчёта пришлите в чат Avito:
+— ИНН компании;
+— ссылку на закупку;
+— сумму гарантии;
+— дату, к которой она нужна.
+
+Ответим, какие варианты можно рассмотреть.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-guarantee-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-guarantee-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-guarantee-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-guarantee-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-guarantee-04.jpg"/>
     </Images>
   </Ad>
 
@@ -91,27 +102,35 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Оренбург, Оренбургская область</Address>
-    <Title>Создание сайта для бизнеса в Оренбурге</Title>
-    <Description><![CDATA[Создадим сайт для бизнеса в Оренбурге: от структуры и прототипа до адаптивной готовой версии.
+    <Title>Сайт под ключ для бизнеса</Title>
+    <Description><![CDATA[Сайт должен не просто красиво выглядеть, а понятно объяснять ваше предложение и приводить обращения.
 
-Возможные форматы:
-— лендинг для одной услуги;
-— корпоративный сайт;
-— каталог или интернет-магазин;
-— обновление существующего сайта.
+Создаём сайты для бизнеса в Оренбурге: от структуры и прототипа до адаптивной готовой версии.
 
-До начала работ согласуем задачи, страницы, функции, сроки и стоимость. В базовый процесс входят прототип, дизайн, адаптация под телефоны, формы связи и базовая аналитика.
+💻 Что можно разработать:
+✔ лендинг для одной услуги;
+✔ корпоративный сайт;
+✔ каталог или интернет-магазин;
+✔ новую версию существующего сайта.
 
-Стоимость — от 5 000 ₽. Работаем по договору.
+В работу могут входить структура, прототип, дизайн, мобильная версия, формы связи и базовая аналитика. До начала фиксируем объём, сроки и стоимость.
 
-Напишите в чат Avito, чем занимается бизнес и какой сайт нужен. Бесплатно предложим формат и предварительную оценку.]]></Description>
+Стоимость — от 5 000 ₽. Итоговая цена зависит от количества страниц, дизайна и необходимых функций. Работаем по договору.
+
+Напишите в чат Avito:
+— чем занимается ваш бизнес;
+— какой сайт нужен;
+— покажите 1–2 примера, которые нравятся.
+
+Бесплатно предложим подходящий формат и предварительно оценим проект.]]></Description>
     <Price>5000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-websites-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-websites-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-websites-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-websites-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-websites-04.jpg"/>
     </Images>
   </Ad>
 
@@ -128,26 +147,34 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Оренбург, Оренбургская область</Address>
-    <Title>Разработка приложения и MVP в Оренбурге</Title>
-    <Description><![CDATA[Разработаем для бизнеса в Оренбурге мобильное или веб-приложение: разберём идею, спроектируем сценарии и соберём первую рабочую версию.
+    <Title>Разработка мобильного приложения и MVP</Title>
+    <Description><![CDATA[Есть идея приложения, но непонятно, с чего начать и сколько будет стоить разработка?
 
-Что можно создать:
-— мобильное приложение;
-— веб-приложение;
-— личный кабинет;
-— внутренний сервис для сотрудников или клиентов.
+Поможем бизнесу в Оренбурге превратить идею в понятный MVP — первую рабочую версию с ключевыми функциями.
 
-Проект делим на этапы: аналитика, прототип, дизайн, разработка, тестирование и запуск. До начала фиксируем состав MVP, сроки и смету.
+📱 Что можем создать:
+✔ мобильное приложение;
+✔ веб-приложение;
+✔ личный кабинет;
+✔ внутренний сервис для сотрудников или клиентов.
 
-Стоимость договорная. Работаем по договору.
+Проект делим на прозрачные этапы:
+— разбираем задачу и пользователей;
+— проектируем сценарии и прототип;
+— согласуем дизайн;
+— разрабатываем и тестируем;
+— помогаем с запуском.
 
-Для предварительной оценки опишите в чате Avito пользователей, основную задачу и обязательные функции. Первая консультация бесплатна.]]></Description>
+Стоимость договорная и зависит от функций. До начала фиксируем состав MVP, этапы, сроки и смету. Работаем по договору.
+
+Напишите в чат Avito, кто будет пользоваться приложением и какие 3 функции обязательны. Первая консультация и предварительная оценка — бесплатно.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-orenburg/orenburg-apps-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-apps-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-apps-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-apps-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-apps-04.jpg"/>
     </Images>
   </Ad>
 
@@ -158,40 +185,41 @@
     <Category>Предложение услуг</Category>
     <ServiceType>Деловые услуги</ServiceType>
     <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
     <Place>Удалённо</Place>
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Уфа, Республика Башкортостан</Address>
-    <Title>Тендерное сопровождение 44-ФЗ и 223-ФЗ в Уфе</Title>
-    <Description><![CDATA[Хотите участвовать в тендерах, но не тратить время на сложную документацию и контроль десятков сроков?
+    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
 
-«Контракт Бюро» сопровождает компании и ИП в Уфе по 44-ФЗ, 223-ФЗ и коммерческим закупкам. Помогаем выстроить понятный процесс: от выбора закупки до подписания и исполнения контракта.
+«Контракт Бюро» сопровождает компании и ИП в Уфе по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
 
-🔎 С чего начинаем
-Пришлите ссылку на закупку в чат Avito. Бесплатно посмотрим требования, сроки и ключевые риски. Если участие невыгодно или условия опасны для исполнителя — скажем об этом до подачи заявки.
+🔎 До подачи заявки проверим:
+✔ требования к участнику и документам;
+✔ экономику закупки и сроки оплаты;
+✔ обеспечение, штрафы и проект контракта;
+✔ риски отклонения и исполнения.
 
-💼 Что можем взять на себя:
-✔ анализ документации, экономики и проекта контракта;
-✔ подготовку заявки и проверку комплекта документов;
-✔ контроль сроков и подачу на электронной площадке;
-✔ сопровождение банковской гарантии и подписания контракта;
-✔ помощь на этапе исполнения, приёмки и оплаты.
+💼 Если решите участвовать, возьмём процесс под ключ:
+— подготовим и проверим заявку;
+— проконтролируем срок подачи;
+— поможем с банковской гарантией;
+— сопроводим подписание и исполнение контракта.
 
-📋 Формат работы:
-• тендер под ключ — 3 000 ₽;
-• сопровождение отдельного этапа;
-• внешний тендерный специалист для вашего бизнеса.
+Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
 
-Работаем дистанционно и по договору. Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку, снизить риски отклонения и держать весь процесс под контролем.
+Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
 
-Напишите в чат Avito и отправьте ссылку на закупку — начнём с бесплатной первичной оценки.]]></Description>
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
     <Price>3000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-tenders-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-tenders-04.jpg"/>
     </Images>
   </Ad>
 
@@ -200,32 +228,42 @@
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <ServiceType>Услуги посредников</ServiceType>
+    <ServiceSubtype>Помощь с финансовыми вопросами</ServiceSubtype>
     <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нет</Prepayment>
+    <WorkWithLegalEntities>Да</WorkWithLegalEntities>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Уфа, Республика Башкортостан</Address>
-    <Title>Банковская гарантия для тендера в Уфе</Title>
-    <Description><![CDATA[Поможем компании или ИП в Уфе оформить банковскую гарантию для заявки, исполнения контракта, возврата аванса или гарантийных обязательств.
+    <Title>Банковская гарантия по 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нужна банковская гарантия для тендера или контракта? Поможем пройти путь от первичной проверки до выпуска без десятка отдельных заявок.
 
-Как работаем:
-— проверяем закупку, сумму и срок гарантии;
-— собираем одну заявку и направляем банкам-партнёрам;
-— сравниваем полученные предложения;
-— сопровождаем документы до решения и выпуска.
+Работаем с компаниями и ИП в Уфе. Подбираем гарантии для участия, исполнения контракта, возврата аванса и гарантийных обязательств.
 
-Подбор и наше сопровождение — бесплатно. Клиент оплачивает комиссию напрямую выбранному банку.
+💼 Как проходит работа:
+✔ проверяем закупку, сумму и нужный срок;
+✔ помогаем собрать комплект документов;
+✔ направляем заявку в банки-партнёры;
+✔ сравниваем полученные условия;
+✔ сопровождаем документы до решения и выпуска.
 
-Гарантию выдаёт банк; он же принимает решение и определяет окончательную стоимость. Одобрение заранее не гарантируется.
+Подбор и наше сопровождение — 0 ₽. Клиент оплачивает комиссию напрямую выбранному банку.
 
-Для расчёта пришлите в чат Avito ИНН, ссылку на закупку, сумму и нужную дату.]]></Description>
+Важно: гарантию выдаёт банк. Он принимает решение, определяет стоимость и может запросить дополнительные документы. Одобрение заранее не гарантируется.
+
+Для расчёта пришлите в чат Avito:
+— ИНН компании;
+— ссылку на закупку;
+— сумму гарантии;
+— дату, к которой она нужна.
+
+Ответим, какие варианты можно рассмотреть.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-guarantee-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-guarantee-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-guarantee-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-guarantee-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-guarantee-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-guarantee-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-guarantee-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-guarantee-04.jpg"/>
     </Images>
   </Ad>
 
@@ -242,27 +280,35 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Уфа, Республика Башкортостан</Address>
-    <Title>Создание сайта для бизнеса в Уфе</Title>
-    <Description><![CDATA[Создадим сайт для бизнеса в Уфе: от структуры и прототипа до адаптивной готовой версии.
+    <Title>Сайт под ключ для бизнеса</Title>
+    <Description><![CDATA[Сайт должен не просто красиво выглядеть, а понятно объяснять ваше предложение и приводить обращения.
 
-Возможные форматы:
-— лендинг для одной услуги;
-— корпоративный сайт;
-— каталог или интернет-магазин;
-— обновление существующего сайта.
+Создаём сайты для бизнеса в Уфе: от структуры и прототипа до адаптивной готовой версии.
 
-До начала работ согласуем задачи, страницы, функции, сроки и стоимость. В базовый процесс входят прототип, дизайн, адаптация под телефоны, формы связи и базовая аналитика.
+💻 Что можно разработать:
+✔ лендинг для одной услуги;
+✔ корпоративный сайт;
+✔ каталог или интернет-магазин;
+✔ новую версию существующего сайта.
 
-Стоимость — от 5 000 ₽. Работаем по договору.
+В работу могут входить структура, прототип, дизайн, мобильная версия, формы связи и базовая аналитика. До начала фиксируем объём, сроки и стоимость.
 
-Напишите в чат Avito, чем занимается бизнес и какой сайт нужен. Бесплатно предложим формат и предварительную оценку.]]></Description>
+Стоимость — от 5 000 ₽. Итоговая цена зависит от количества страниц, дизайна и необходимых функций. Работаем по договору.
+
+Напишите в чат Avito:
+— чем занимается ваш бизнес;
+— какой сайт нужен;
+— покажите 1–2 примера, которые нравятся.
+
+Бесплатно предложим подходящий формат и предварительно оценим проект.]]></Description>
     <Price>5000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-websites-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-websites-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-websites-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-websites-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-websites-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-websites-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-websites-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-websites-04.jpg"/>
     </Images>
   </Ad>
 
@@ -279,26 +325,34 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Уфа, Республика Башкортостан</Address>
-    <Title>Разработка приложения и MVP в Уфе</Title>
-    <Description><![CDATA[Разработаем для бизнеса в Уфе мобильное или веб-приложение: разберём идею, спроектируем сценарии и соберём первую рабочую версию.
+    <Title>Разработка мобильного приложения и MVP</Title>
+    <Description><![CDATA[Есть идея приложения, но непонятно, с чего начать и сколько будет стоить разработка?
 
-Что можно создать:
-— мобильное приложение;
-— веб-приложение;
-— личный кабинет;
-— внутренний сервис для сотрудников или клиентов.
+Поможем бизнесу в Уфе превратить идею в понятный MVP — первую рабочую версию с ключевыми функциями.
 
-Проект делим на этапы: аналитика, прототип, дизайн, разработка, тестирование и запуск. До начала фиксируем состав MVP, сроки и смету.
+📱 Что можем создать:
+✔ мобильное приложение;
+✔ веб-приложение;
+✔ личный кабинет;
+✔ внутренний сервис для сотрудников или клиентов.
 
-Стоимость договорная. Работаем по договору.
+Проект делим на прозрачные этапы:
+— разбираем задачу и пользователей;
+— проектируем сценарии и прототип;
+— согласуем дизайн;
+— разрабатываем и тестируем;
+— помогаем с запуском.
 
-Для предварительной оценки опишите в чате Avito пользователей, основную задачу и обязательные функции. Первая консультация бесплатна.]]></Description>
+Стоимость договорная и зависит от функций. До начала фиксируем состав MVP, этапы, сроки и смету. Работаем по договору.
+
+Напишите в чат Avito, кто будет пользоваться приложением и какие 3 функции обязательны. Первая консультация и предварительная оценка — бесплатно.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-apps-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-apps-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-apps-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-ufa/ufa-apps-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-apps-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-apps-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-apps-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-ufa-apps-04.jpg"/>
     </Images>
   </Ad>
 
@@ -309,74 +363,85 @@
     <Category>Предложение услуг</Category>
     <ServiceType>Деловые услуги</ServiceType>
     <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
     <Place>Удалённо</Place>
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Самара, Самарская область</Address>
-    <Title>Тендерное сопровождение 44-ФЗ и 223-ФЗ в Самаре</Title>
-    <Description><![CDATA[Хотите участвовать в тендерах, но не тратить время на сложную документацию и контроль десятков сроков?
+    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
 
-«Контракт Бюро» сопровождает компании и ИП в Самаре по 44-ФЗ, 223-ФЗ и коммерческим закупкам. Помогаем выстроить понятный процесс: от выбора закупки до подписания и исполнения контракта.
+«Контракт Бюро» сопровождает компании и ИП в Самаре по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
 
-🔎 С чего начинаем
-Пришлите ссылку на закупку в чат Avito. Бесплатно посмотрим требования, сроки и ключевые риски. Если участие невыгодно или условия опасны для исполнителя — скажем об этом до подачи заявки.
+🔎 До подачи заявки проверим:
+✔ требования к участнику и документам;
+✔ экономику закупки и сроки оплаты;
+✔ обеспечение, штрафы и проект контракта;
+✔ риски отклонения и исполнения.
 
-💼 Что можем взять на себя:
-✔ анализ документации, экономики и проекта контракта;
-✔ подготовку заявки и проверку комплекта документов;
-✔ контроль сроков и подачу на электронной площадке;
-✔ сопровождение банковской гарантии и подписания контракта;
-✔ помощь на этапе исполнения, приёмки и оплаты.
+💼 Если решите участвовать, возьмём процесс под ключ:
+— подготовим и проверим заявку;
+— проконтролируем срок подачи;
+— поможем с банковской гарантией;
+— сопроводим подписание и исполнение контракта.
 
-📋 Формат работы:
-• тендер под ключ — 3 000 ₽;
-• сопровождение отдельного этапа;
-• внешний тендерный специалист для вашего бизнеса.
+Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
 
-Работаем дистанционно и по договору. Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку, снизить риски отклонения и держать весь процесс под контролем.
+Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
 
-Напишите в чат Avito и отправьте ссылку на закупку — начнём с бесплатной первичной оценки.]]></Description>
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
     <Price>3000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-tenders-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-04.jpg"/>
     </Images>
   </Ad>
 
   <Ad>
-    <Id>kb-samara-guarantee-202608</Id>
+    <Id>kb-samara-guarantee-fin-v3</Id>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <ServiceType>Услуги посредников</ServiceType>
+    <ServiceSubtype>Помощь с финансовыми вопросами</ServiceSubtype>
     <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нет</Prepayment>
+    <WorkWithLegalEntities>Да</WorkWithLegalEntities>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Самара, Самарская область</Address>
-    <Title>Банковская гарантия для тендера в Самаре</Title>
-    <Description><![CDATA[Поможем компании или ИП в Самаре оформить банковскую гарантию для заявки, исполнения контракта, возврата аванса или гарантийных обязательств.
+    <Title>Банковская гарантия по 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нужна банковская гарантия для тендера или контракта? Поможем пройти путь от первичной проверки до выпуска без десятка отдельных заявок.
 
-Как работаем:
-— проверяем закупку, сумму и срок гарантии;
-— собираем одну заявку и направляем банкам-партнёрам;
-— сравниваем полученные предложения;
-— сопровождаем документы до решения и выпуска.
+Работаем с компаниями и ИП в Самаре. Подбираем гарантии для участия, исполнения контракта, возврата аванса и гарантийных обязательств.
 
-Подбор и наше сопровождение — бесплатно. Клиент оплачивает комиссию напрямую выбранному банку.
+💼 Как проходит работа:
+✔ проверяем закупку, сумму и нужный срок;
+✔ помогаем собрать комплект документов;
+✔ направляем заявку в банки-партнёры;
+✔ сравниваем полученные условия;
+✔ сопровождаем документы до решения и выпуска.
 
-Гарантию выдаёт банк; он же принимает решение и определяет окончательную стоимость. Одобрение заранее не гарантируется.
+Подбор и наше сопровождение — 0 ₽. Клиент оплачивает комиссию напрямую выбранному банку.
 
-Для расчёта пришлите в чат Avito ИНН, ссылку на закупку, сумму и нужную дату.]]></Description>
+Важно: гарантию выдаёт банк. Он принимает решение, определяет стоимость и может запросить дополнительные документы. Одобрение заранее не гарантируется.
+
+Для расчёта пришлите в чат Avito:
+— ИНН компании;
+— ссылку на закупку;
+— сумму гарантии;
+— дату, к которой она нужна.
+
+Ответим, какие варианты можно рассмотреть.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-guarantee-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-guarantee-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-guarantee-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-guarantee-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-guarantee-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-guarantee-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-guarantee-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-guarantee-04.jpg"/>
     </Images>
   </Ad>
 
@@ -393,27 +458,35 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Самара, Самарская область</Address>
-    <Title>Создание сайта для бизнеса в Самаре</Title>
-    <Description><![CDATA[Создадим сайт для бизнеса в Самаре: от структуры и прототипа до адаптивной готовой версии.
+    <Title>Сайт под ключ для бизнеса</Title>
+    <Description><![CDATA[Сайт должен не просто красиво выглядеть, а понятно объяснять ваше предложение и приводить обращения.
 
-Возможные форматы:
-— лендинг для одной услуги;
-— корпоративный сайт;
-— каталог или интернет-магазин;
-— обновление существующего сайта.
+Создаём сайты для бизнеса в Самаре: от структуры и прототипа до адаптивной готовой версии.
 
-До начала работ согласуем задачи, страницы, функции, сроки и стоимость. В базовый процесс входят прототип, дизайн, адаптация под телефоны, формы связи и базовая аналитика.
+💻 Что можно разработать:
+✔ лендинг для одной услуги;
+✔ корпоративный сайт;
+✔ каталог или интернет-магазин;
+✔ новую версию существующего сайта.
 
-Стоимость — от 5 000 ₽. Работаем по договору.
+В работу могут входить структура, прототип, дизайн, мобильная версия, формы связи и базовая аналитика. До начала фиксируем объём, сроки и стоимость.
 
-Напишите в чат Avito, чем занимается бизнес и какой сайт нужен. Бесплатно предложим формат и предварительную оценку.]]></Description>
+Стоимость — от 5 000 ₽. Итоговая цена зависит от количества страниц, дизайна и необходимых функций. Работаем по договору.
+
+Напишите в чат Avito:
+— чем занимается ваш бизнес;
+— какой сайт нужен;
+— покажите 1–2 примера, которые нравятся.
+
+Бесплатно предложим подходящий формат и предварительно оценим проект.]]></Description>
     <Price>5000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-websites-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-websites-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-websites-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-websites-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-websites-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-websites-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-websites-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-websites-04.jpg"/>
     </Images>
   </Ad>
 
@@ -430,26 +503,34 @@
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Самара, Самарская область</Address>
-    <Title>Разработка приложения и MVP в Самаре</Title>
-    <Description><![CDATA[Разработаем для бизнеса в Самаре мобильное или веб-приложение: разберём идею, спроектируем сценарии и соберём первую рабочую версию.
+    <Title>Разработка мобильного приложения и MVP</Title>
+    <Description><![CDATA[Есть идея приложения, но непонятно, с чего начать и сколько будет стоить разработка?
 
-Что можно создать:
-— мобильное приложение;
-— веб-приложение;
-— личный кабинет;
-— внутренний сервис для сотрудников или клиентов.
+Поможем бизнесу в Самаре превратить идею в понятный MVP — первую рабочую версию с ключевыми функциями.
 
-Проект делим на этапы: аналитика, прототип, дизайн, разработка, тестирование и запуск. До начала фиксируем состав MVP, сроки и смету.
+📱 Что можем создать:
+✔ мобильное приложение;
+✔ веб-приложение;
+✔ личный кабинет;
+✔ внутренний сервис для сотрудников или клиентов.
 
-Стоимость договорная. Работаем по договору.
+Проект делим на прозрачные этапы:
+— разбираем задачу и пользователей;
+— проектируем сценарии и прототип;
+— согласуем дизайн;
+— разрабатываем и тестируем;
+— помогаем с запуском.
 
-Для предварительной оценки опишите в чате Avito пользователей, основную задачу и обязательные функции. Первая консультация бесплатна.]]></Description>
+Стоимость договорная и зависит от функций. До начала фиксируем состав MVP, этапы, сроки и смету. Работаем по договору.
+
+Напишите в чат Avito, кто будет пользоваться приложением и какие 3 функции обязательны. Первая консультация и предварительная оценка — бесплатно.]]></Description>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-apps-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-apps-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-apps-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/live-samara/samara-apps-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-apps-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-apps-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-apps-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-apps-04.jpg"/>
     </Images>
   </Ad>
 </Ads>
