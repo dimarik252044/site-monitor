@@ -533,4 +533,182 @@
       <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-apps-04.jpg"/>
     </Images>
   </Ad>
+
+  <Ad>
+    <Id>kb-chelyabinsk-tenders-v4-202608</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Челябинск, Челябинская область</Address>
+    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
+
+«Контракт Бюро» сопровождает компании и ИП в Челябинске по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
+
+🔎 До подачи заявки проверим:
+✔ требования к участнику и документам;
+✔ экономику закупки и сроки оплаты;
+✔ обеспечение, штрафы и проект контракта;
+✔ риски отклонения и исполнения.
+
+💼 Если решите участвовать, возьмём процесс под ключ:
+— подготовим и проверим заявку;
+— проконтролируем срок подачи;
+— поможем с банковской гарантией;
+— сопроводим подписание и исполнение контракта.
+
+Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
+
+Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
+
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
+    <Price>3000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-chelyabinsk-guarantee-v4-202608</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Услуги посредников</ServiceType>
+    <ServiceSubtype>Помощь с финансовыми вопросами</ServiceSubtype>
+    <Place>Удалённо</Place>
+    <Prepayment>Нет</Prepayment>
+    <WorkWithLegalEntities>Да</WorkWithLegalEntities>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Челябинск, Челябинская область</Address>
+    <Title>Банковская гарантия по 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нужна банковская гарантия для тендера или контракта? Поможем пройти путь от первичной проверки до выпуска без десятка отдельных заявок.
+
+Работаем с компаниями и ИП в Челябинске. Подбираем гарантии для участия, исполнения контракта, возврата аванса и гарантийных обязательств.
+
+💼 Как проходит работа:
+✔ проверяем закупку, сумму и нужный срок;
+✔ помогаем собрать комплект документов;
+✔ направляем заявку в банки-партнёры;
+✔ сравниваем полученные условия;
+✔ сопровождаем документы до решения и выпуска.
+
+Подбор и наше сопровождение — 0 ₽. Клиент оплачивает комиссию напрямую выбранному банку.
+
+Важно: гарантию выдаёт банк. Он принимает решение, определяет стоимость и может запросить дополнительные документы. Одобрение заранее не гарантируется.
+
+Для расчёта пришлите в чат Avito:
+— ИНН компании;
+— ссылку на закупку;
+— сумму гарантии;
+— дату, к которой она нужна.
+
+Ответим, какие варианты можно рассмотреть.]]></Description>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-guarantee-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-guarantee-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-guarantee-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-guarantee-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-chelyabinsk-websites-v4-202608</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>IT, дизайн, тексты</ServiceSubtype>
+    <ServiceSubspecies>Создание сайтов и приложений</ServiceSubspecies>
+    <Specialty>Разработка и сопровождение сайтов под ключ</Specialty>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Челябинск, Челябинская область</Address>
+    <Title>Сайт под ключ для бизнеса</Title>
+    <Description><![CDATA[Сайт должен не просто красиво выглядеть, а понятно объяснять ваше предложение и приводить обращения.
+
+Создаём сайты для бизнеса в Челябинске: от структуры и прототипа до адаптивной готовой версии.
+
+💻 Что можно разработать:
+✔ лендинг для одной услуги;
+✔ корпоративный сайт;
+✔ каталог или интернет-магазин;
+✔ новую версию существующего сайта.
+
+В работу могут входить структура, прототип, дизайн, мобильная версия, формы связи и базовая аналитика. До начала фиксируем объём, сроки и стоимость.
+
+Стоимость — от 5 000 ₽. Итоговая цена зависит от количества страниц, дизайна и необходимых функций. Работаем по договору.
+
+Напишите в чат Avito:
+— чем занимается ваш бизнес;
+— какой сайт нужен;
+— покажите 1–2 примера, которые нравятся.
+
+Бесплатно предложим подходящий формат и предварительно оценим проект.]]></Description>
+    <Price>5000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-websites-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-websites-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-websites-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-websites-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-chelyabinsk-apps-v4-202608</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>IT, дизайн, тексты</ServiceSubtype>
+    <ServiceSubspecies>Создание сайтов и приложений</ServiceSubspecies>
+    <Specialty>Разработка приложений</Specialty>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Челябинск, Челябинская область</Address>
+    <Title>Разработка мобильного приложения и MVP</Title>
+    <Description><![CDATA[Есть идея приложения, но непонятно, с чего начать и сколько будет стоить разработка?
+
+Поможем бизнесу в Челябинске превратить идею в понятный MVP — первую рабочую версию с ключевыми функциями.
+
+📱 Что можем создать:
+✔ мобильное приложение;
+✔ веб-приложение;
+✔ личный кабинет;
+✔ внутренний сервис для сотрудников или клиентов.
+
+Проект делим на прозрачные этапы:
+— разбираем задачу и пользователей;
+— проектируем сценарии и прототип;
+— согласуем дизайн;
+— разрабатываем и тестируем;
+— помогаем с запуском.
+
+Стоимость договорная и зависит от функций. До начала фиксируем состав MVP, этапы, сроки и смету. Работаем по договору.
+
+Напишите в чат Avito, кто будет пользоваться приложением и какие 3 функции обязательны. Первая консультация и предварительная оценка — бесплатно.]]></Description>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-apps-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-apps-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-apps-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-apps-04.jpg"/>
+    </Images>
+  </Ad>
 </Ads>
