@@ -711,4 +711,86 @@
       <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-apps-04.jpg"/>
     </Images>
   </Ad>
+
+  <Ad>
+    <Id>kb-moscow-tenders-personal-v5</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Москва</Address>
+    <Title>Тендерное сопровождение от 1 000 ₽</Title>
+    <Description><![CDATA[Нашли закупку и хотите быстро понять, стоит ли участвовать? Пришлите ссылку в чат Avito — лично разберу требования, сроки и основные риски.
+
+Личное сопровождение бизнеса в Москве по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
+
+Что могу взять на себя:
+✔ первичный разбор закупки и документации;
+✔ проверку требований к участнику;
+✔ подготовку и проверку заявки;
+✔ контроль срока подачи на электронной площадке;
+✔ сопровождение банковской гарантии;
+✔ помощь при подписании и исполнении контракта.
+
+Стоимость — от 1 000 ₽ за отдельную задачу. Полное сопровождение рассчитывается после оценки закупки. Объём, сроки и цену согласуем до начала работы.
+
+Не обещаю победу — решение принимает заказчик. Моя задача — подготовить корректную заявку и заранее показать риски.
+
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного первичного разбора.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-moscow-region-tenders-personal-v5</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Красногорск, Московская область</Address>
+    <Title>Тендерное сопровождение для бизнеса</Title>
+    <Description><![CDATA[Нет штатного тендерного специалиста, а закупку нужно проверить и подать вовремя? Подключусь к задаче дистанционно и проведу по этапам.
+
+Помогаю компаниям и ИП в Московской области участвовать в закупках по 44-ФЗ, 223-ФЗ и на коммерческих площадках.
+
+Что могу взять на себя:
+✔ первичный разбор закупки и документации;
+✔ проверку требований к участнику;
+✔ подготовку и проверку заявки;
+✔ контроль срока подачи на электронной площадке;
+✔ сопровождение банковской гарантии;
+✔ помощь при подписании и исполнении контракта.
+
+Стоимость — от 1 000 ₽ за отдельную задачу. Полное сопровождение рассчитывается после оценки закупки. Объём, сроки и цену согласуем до начала работы.
+
+Не обещаю победу — решение принимает заказчик. Моя задача — подготовить корректную заявку и заранее показать риски.
+
+Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного первичного разбора.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-region-tenders-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-region-tenders-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-region-tenders-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-region-tenders-04.jpg"/>
+    </Images>
+  </Ad>
 </Ads>
