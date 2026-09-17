@@ -335,7 +335,7 @@
 
   <Ad>
     <Id>kb-orenburg-guarantee-v2</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -380,7 +380,7 @@
 
   <Ad>
     <Id>kb-orenburg-websites-v2</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -426,7 +426,7 @@
 
   <Ad>
     <Id>kb-orenburg-apps-v2</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -471,7 +471,7 @@
 
   <Ad>
     <Id>kb-ufa-tenders-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -517,7 +517,7 @@
 
   <Ad>
     <Id>kb-ufa-guarantee-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -562,7 +562,7 @@
 
   <Ad>
     <Id>kb-ufa-websites-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -608,7 +608,7 @@
 
   <Ad>
     <Id>kb-ufa-apps-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -653,7 +653,7 @@
 
   <Ad>
     <Id>kb-samara-guarantee-fin-v3</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -698,7 +698,7 @@
 
   <Ad>
     <Id>kb-samara-websites-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -744,7 +744,7 @@
 
   <Ad>
     <Id>kb-samara-apps-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -789,7 +789,7 @@
 
   <Ad>
     <Id>kb-chelyabinsk-guarantee-v4-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -834,7 +834,7 @@
 
   <Ad>
     <Id>kb-chelyabinsk-websites-v4-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -880,7 +880,7 @@
 
   <Ad>
     <Id>kb-chelyabinsk-apps-v4-202608</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -925,7 +925,7 @@
 
   <Ad>
     <Id>kb-moscow-region-tenders-personal-v5</Id>
-    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
+    <DateEnd>2026-09-17T22:15:00+03:00</DateEnd>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
