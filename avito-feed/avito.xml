@@ -1,52 +1,341 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Ads formatVersion="3" target="Avito.ru">
   <Ad>
-    <Id>kb-orenburg-tenders-v2</Id>
+    <Id>kb-moscow-tenders-personal-v5</Id>
+    <AvitoId>8303706721</AvitoId>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
     <ServiceType>Деловые услуги</ServiceType>
     <ServiceSubtype>Консультирование</ServiceSubtype>
     <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Москва</Address>
+    <Title>Подготовка заявки на тендер 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нашли закупку и хотите быстро понять, стоит ли участвовать? Пришлите ссылку или номер тендера — разберу требования, сроки и ключевые риски.
+
+Для компаний и ИП из Москвы, которым нужна помощь с конкретной заявкой без найма специалиста в штат.
+
+Что сделаю:
+— проверю требования к участнику и документам;
+— подготовлю или проверю заявку;
+— проконтролирую срок подачи на электронной площадке;
+— проверю проект контракта и обеспечение;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Напишите в чат Avito и отправьте ссылку на закупку. Сообщу объём работы, срок и точную стоимость до начала.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/moscow-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/moscow-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/moscow-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/moscow-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-orenburg-tenders-v2</Id>
+    <AvitoId>8303609012</AvitoId>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
     <Place>Удалённо</Place>
     <Consultations>Есть</Consultations>
     <WorkWithContract>Да</WorkWithContract>
     <Prepayment>Нужна</Prepayment>
     <ContactMethod>По телефону и в сообщениях</ContactMethod>
     <Address>Оренбург, Оренбургская область</Address>
-    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
-    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
+    <Title>Проверка тендера перед подачей заявки</Title>
+    <Description><![CDATA[Закупка подходит по предмету и цене, но условия вызывают вопросы? Проведу предварительную проверку до того, как вы потратите время на подготовку заявки.
 
-«Контракт Бюро» сопровождает компании и ИП в Оренбурге по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
+Помогаю поставщикам и подрядчикам из Оренбурга оценить тендер по 44-ФЗ, 223-ФЗ или коммерческой площадке.
 
-🔎 До подачи заявки проверим:
-✔ требования к участнику и документам;
-✔ экономику закупки и сроки оплаты;
-✔ обеспечение, штрафы и проект контракта;
-✔ риски отклонения и исполнения.
+Что сделаю:
+— изучу извещение, техническое задание и проект контракта;
+— проверю сроки, обеспечение и требования к опыту;
+— составлю список документов для подачи;
+— покажу условия, которые могут повлиять на исполнение;
 
-💼 Если решите участвовать, возьмём процесс под ключ:
-— подготовим и проверим заявку;
-— проконтролируем срок подачи;
-— поможем с банковской гарантией;
-— сопроводим подписание и исполнение контракта.
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
 
-Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
 
-Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
-
-Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
-    <Price>3000</Price>
+Отправьте номер закупки в чат Avito. После просмотра скажу, что нужно проверить и сколько будет стоить работа.]]></Description>
+    <Price>1000</Price>
     <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-orenburg-tenders-04.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/orenburg-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/orenburg-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/orenburg-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/orenburg-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-ufa-tender-reset-202609</Id>
+    <AvitoId>8239089351</AvitoId>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Уфа, Республика Башкортостан</Address>
+    <Title>Проверка и подготовка тендерной заявки</Title>
+    <Description><![CDATA[Заявка почти готова, но нужно убедиться, что документы соответствуют требованиям? Проверю комплект перед подачей и отмечу, что необходимо исправить.
+
+Удалённо работаю с организациями и ИП из Уфы по закупкам 44-ФЗ, 223-ФЗ и коммерческим тендерам.
+
+Что сделаю:
+— сверю документы с требованиями закупки;
+— проверю декларации, характеристики и формы;
+— обращу внимание на риск отклонения;
+— помогу подготовить недостающие материалы;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Пришлите ссылку на тендер и укажите срок подачи. Оценю задачу и отвечу, успеем ли провести проверку.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ufa-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ufa-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ufa-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ufa-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-samara-tenders-202608</Id>
+    <AvitoId>8303137075</AvitoId>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Самара, Самарская область</Address>
+    <Title>Тендерный специалист для бизнеса удалённо</Title>
+    <Description><![CDATA[Тендеры появляются нерегулярно, поэтому отдельный сотрудник в штате не нужен? Подключусь к одной закупке или возьму процедуру на сопровождение.
+
+Формат подходит компаниям из Самары, которым нужен внешний специалист по государственным и коммерческим закупкам.
+
+Что сделаю:
+— оценю закупку до участия;
+— подготовлю комплект документов;
+— проверю площадку и срок подачи;
+— помогу на этапе подписания контракта;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Напишите, чем занимается компания и какую закупку рассматриваете. Предложу формат без лишних услуг.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/samara-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/samara-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/samara-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/samara-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-chelyabinsk-tenders-v4-202608</Id>
+    <AvitoId>8303138466</AvitoId>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Челябинск, Челябинская область</Address>
+    <Title>Аудит тендерной документации до участия</Title>
+    <Description><![CDATA[Не каждая подходящая по цене закупка будет выгодной после изучения договора. Проверю документацию и помогу принять решение до подачи заявки.
+
+Услуга для поставщиков и подрядчиков из Челябинска, которые находят закупки самостоятельно, но хотят независимую проверку.
+
+Что сделаю:
+— разберу техническое задание и сроки;
+— проверю обеспечение, оплату и приёмку;
+— отмечу требования к опыту и документам;
+— составлю перечень рисков и вопросов;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Отправьте номер закупки. Сообщу срок аудита и стоимость до начала работы.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/chelyabinsk-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/chelyabinsk-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/chelyabinsk-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/chelyabinsk-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-spb-tender-202609</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Санкт-Петербург</Address>
+    <Title>Сопровождение закупок по 44-ФЗ и 223-ФЗ</Title>
+    <Description><![CDATA[Нужно пройти процедуру последовательно — от анализа документации до подписания контракта? Подключусь к отдельному этапу или возьму закупку целиком.
+
+Сопровождаю компании и ИП из Санкт-Петербурга дистанционно, с фиксацией состава работ и сроков.
+
+Что сделаю:
+— оценю требования и экономику закупки;
+— подготовлю заявку и проверю документы;
+— помогу с обеспечением и банковской гарантией;
+— проверю действия перед подписанием контракта;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Пришлите ссылку на закупку в чат Avito. Начнём с определения задач, сроков и стоимости.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/spb-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/spb-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/spb-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/spb-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-kazan-tender-202609</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Казань, Республика Татарстан</Address>
+    <Title>Аккредитация на ЭТП и первая заявка</Title>
+    <Description><![CDATA[Хотите начать участвовать в закупках, но ещё не настроена работа на электронных площадках? Помогу подготовить компанию и разобрать первую процедуру.
+
+Работаю дистанционно с предпринимателями и организациями из Казани, которые только запускают тендерное направление.
+
+Что сделаю:
+— проверю регистрацию и доступы;
+— помогу разобраться с аккредитацией на ЭТП;
+— настрою понятные критерии поиска закупок;
+— разберу требования и первую заявку;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Напишите, есть ли электронная подпись и на какой площадке хотите участвовать. Предложу последовательность действий.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/kazan-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/kazan-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/kazan-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/kazan-04.jpg"/>
+    </Images>
+  </Ad>
+
+  <Ad>
+    <Id>kb-ekb-tender-202609</Id>
+    <ListingFee>Package</ListingFee>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Консультирование</ServiceSubtype>
+    <Direction>Другое</Direction>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>Удалённо</Place>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <Prepayment>Нужна</Prepayment>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <Address>Екатеринбург, Свердловская область</Address>
+    <Title>Проверка контракта и рисков по тендеру</Title>
+    <Description><![CDATA[Цена закупки выглядит привлекательной, но условия исполнения могут оказаться невыгодными? Проверю проект контракта и связанные требования до подачи заявки.
+
+Помогаю бизнесу из Екатеринбурга заранее увидеть риски оплаты, приёмки, штрафов и обеспечения.
+
+Что сделаю:
+— проверю порядок оплаты и приёмки;
+— разберу обеспечение и ответственность;
+— отмечу спорные сроки и обязанности;
+— сопоставлю контракт с техническим заданием;
+
+Стоимость отдельной задачи — от 1 000 ₽. Полное сопровождение рассчитывается после просмотра документации. Объём, срок и цену согласуем до начала работы.
+
+Не обещаю победу: решение принимает заказчик. Моя задача — подготовить корректные документы и заранее показать возможные риски.
+
+Отправьте ссылку на закупку. После первичного просмотра скажу, какие разделы требуют особого внимания.]]></Description>
+    <Price>1000</Price>
+    <Images>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ekaterinburg-01.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ekaterinburg-02.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ekaterinburg-03.jpg"/>
+      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/tender-reset/ekaterinburg-04.jpg"/>
     </Images>
   </Ad>
 
   <Ad>
     <Id>kb-orenburg-guarantee-v2</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -91,6 +380,7 @@
 
   <Ad>
     <Id>kb-orenburg-websites-v2</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -136,6 +426,7 @@
 
   <Ad>
     <Id>kb-orenburg-apps-v2</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -180,6 +471,7 @@
 
   <Ad>
     <Id>kb-ufa-tenders-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -225,6 +517,7 @@
 
   <Ad>
     <Id>kb-ufa-guarantee-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -269,6 +562,7 @@
 
   <Ad>
     <Id>kb-ufa-websites-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -314,6 +608,7 @@
 
   <Ad>
     <Id>kb-ufa-apps-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -357,52 +652,8 @@
   </Ad>
 
   <Ad>
-    <Id>kb-samara-tenders-202608</Id>
-    <ListingFee>Package</ListingFee>
-    <AdStatus>Free</AdStatus>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
-    <Direction>Другое</Direction>
-    <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
-    <Prepayment>Нужна</Prepayment>
-    <ContactMethod>По телефону и в сообщениях</ContactMethod>
-    <Address>Самара, Самарская область</Address>
-    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
-    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
-
-«Контракт Бюро» сопровождает компании и ИП в Самаре по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
-
-🔎 До подачи заявки проверим:
-✔ требования к участнику и документам;
-✔ экономику закупки и сроки оплаты;
-✔ обеспечение, штрафы и проект контракта;
-✔ риски отклонения и исполнения.
-
-💼 Если решите участвовать, возьмём процесс под ключ:
-— подготовим и проверим заявку;
-— проконтролируем срок подачи;
-— поможем с банковской гарантией;
-— сопроводим подписание и исполнение контракта.
-
-Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
-
-Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
-
-Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
-    <Price>3000</Price>
-    <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v3/v3-samara-tenders-04.jpg"/>
-    </Images>
-  </Ad>
-
-  <Ad>
     <Id>kb-samara-guarantee-fin-v3</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -447,6 +698,7 @@
 
   <Ad>
     <Id>kb-samara-websites-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -492,6 +744,7 @@
 
   <Ad>
     <Id>kb-samara-apps-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -535,52 +788,8 @@
   </Ad>
 
   <Ad>
-    <Id>kb-chelyabinsk-tenders-v4-202608</Id>
-    <ListingFee>Package</ListingFee>
-    <AdStatus>Free</AdStatus>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
-    <Direction>Другое</Direction>
-    <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
-    <Prepayment>Нужна</Prepayment>
-    <ContactMethod>По телефону и в сообщениях</ContactMethod>
-    <Address>Челябинск, Челябинская область</Address>
-    <Title>Тендер под ключ 44-ФЗ и 223-ФЗ</Title>
-    <Description><![CDATA[Нашли тендер, но не уверены, стоит ли участвовать? Пришлите ссылку — бесплатно посмотрим требования, сроки и основные риски.
-
-«Контракт Бюро» сопровождает компании и ИП в Челябинске по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
-
-🔎 До подачи заявки проверим:
-✔ требования к участнику и документам;
-✔ экономику закупки и сроки оплаты;
-✔ обеспечение, штрафы и проект контракта;
-✔ риски отклонения и исполнения.
-
-💼 Если решите участвовать, возьмём процесс под ключ:
-— подготовим и проверим заявку;
-— проконтролируем срок подачи;
-— поможем с банковской гарантией;
-— сопроводим подписание и исполнение контракта.
-
-Стоимость тендера под ключ — 3 000 ₽. Работаем дистанционно и по договору.
-
-Не обещаем победу — решение принимает заказчик. Наша задача — подготовить корректную заявку и заранее показать риски.
-
-Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного разбора.]]></Description>
-    <Price>3000</Price>
-    <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/v4/v4-chelyabinsk-tenders-04.jpg"/>
-    </Images>
-  </Ad>
-
-  <Ad>
     <Id>kb-chelyabinsk-guarantee-v4-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -625,6 +834,7 @@
 
   <Ad>
     <Id>kb-chelyabinsk-websites-v4-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -670,6 +880,7 @@
 
   <Ad>
     <Id>kb-chelyabinsk-apps-v4-202608</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -713,48 +924,8 @@
   </Ad>
 
   <Ad>
-    <Id>kb-moscow-tenders-personal-v5</Id>
-    <ListingFee>Package</ListingFee>
-    <AdStatus>Free</AdStatus>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Консультирование</ServiceSubtype>
-    <Direction>Другое</Direction>
-    <Place>Удалённо</Place>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
-    <Prepayment>Нужна</Prepayment>
-    <ContactMethod>По телефону и в сообщениях</ContactMethod>
-    <Address>Москва</Address>
-    <Title>Тендерное сопровождение от 1 000 ₽</Title>
-    <Description><![CDATA[Нашли закупку и хотите быстро понять, стоит ли участвовать? Пришлите ссылку в чат Avito — лично разберу требования, сроки и основные риски.
-
-Личное сопровождение бизнеса в Москве по 44-ФЗ, 223-ФЗ и коммерческим закупкам.
-
-Что могу взять на себя:
-✔ первичный разбор закупки и документации;
-✔ проверку требований к участнику;
-✔ подготовку и проверку заявки;
-✔ контроль срока подачи на электронной площадке;
-✔ сопровождение банковской гарантии;
-✔ помощь при подписании и исполнении контракта.
-
-Стоимость — от 1 000 ₽ за отдельную задачу. Полное сопровождение рассчитывается после оценки закупки. Объём, сроки и цену согласуем до начала работы.
-
-Не обещаю победу — решение принимает заказчик. Моя задача — подготовить корректную заявку и заранее показать риски.
-
-Напишите в чат Avito и отправьте ссылку на закупку. Начнём с бесплатного первичного разбора.]]></Description>
-    <Price>1000</Price>
-    <Images>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-01.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-02.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-03.jpg"/>
-      <Image url="https://raw.githubusercontent.com/dimarik252044/site-monitor/main/avito-feed/personal/personal-moscow-tenders-04.jpg"/>
-    </Images>
-  </Ad>
-
-  <Ad>
     <Id>kb-moscow-region-tenders-personal-v5</Id>
+    <DateBegin>2030-01-01T00:00:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
