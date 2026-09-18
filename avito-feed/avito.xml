@@ -3,6 +3,7 @@
   <Ad>
     <Id>kb-moscow-tenders-personal-v5</Id>
     <AvitoId>8303706721</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -45,6 +46,7 @@
   <Ad>
     <Id>kb-orenburg-tenders-v2</Id>
     <AvitoId>8303609012</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -87,6 +89,7 @@
   <Ad>
     <Id>kb-ufa-tender-reset-202609</Id>
     <AvitoId>8239089351</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -129,6 +132,7 @@
   <Ad>
     <Id>kb-samara-tenders-202608</Id>
     <AvitoId>8303137075</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -171,6 +175,7 @@
   <Ad>
     <Id>kb-chelyabinsk-tenders-v4-202608</Id>
     <AvitoId>8303138466</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -213,6 +218,7 @@
   <Ad>
     <Id>kb-spb-tender-202609</Id>
     <AvitoId>8276106923</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -255,6 +261,7 @@
   <Ad>
     <Id>kb-kazan-tender-202609</Id>
     <AvitoId>8421385292</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
@@ -297,6 +304,7 @@
   <Ad>
     <Id>kb-ekb-tender-202609</Id>
     <AvitoId>8377484385</AvitoId>
+    <DateBegin>2026-09-18T12:05:00+03:00</DateBegin>
     <ListingFee>Package</ListingFee>
     <AdStatus>Free</AdStatus>
     <Category>Предложение услуг</Category>
